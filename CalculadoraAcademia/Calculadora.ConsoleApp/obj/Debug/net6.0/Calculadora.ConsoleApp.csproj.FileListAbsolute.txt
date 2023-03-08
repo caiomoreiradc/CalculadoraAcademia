@@ -1,0 +1,15 @@
+E:\AcademiaProjetos\Calculadora\Calculadora.ConsoleApp\bin\Debug\net6.0\Calculadora.ConsoleApp.exe
+E:\AcademiaProjetos\Calculadora\Calculadora.ConsoleApp\bin\Debug\net6.0\Calculadora.ConsoleApp.deps.json
+E:\AcademiaProjetos\Calculadora\Calculadora.ConsoleApp\bin\Debug\net6.0\Calculadora.ConsoleApp.runtimeconfig.json
+E:\AcademiaProjetos\Calculadora\Calculadora.ConsoleApp\bin\Debug\net6.0\Calculadora.ConsoleApp.dll
+E:\AcademiaProjetos\Calculadora\Calculadora.ConsoleApp\bin\Debug\net6.0\Calculadora.ConsoleApp.pdb
+E:\AcademiaProjetos\Calculadora\Calculadora.ConsoleApp\obj\Debug\net6.0\Calculadora.ConsoleApp.csproj.AssemblyReference.cache
+E:\AcademiaProjetos\Calculadora\Calculadora.ConsoleApp\obj\Debug\net6.0\Calculadora.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\AcademiaProjetos\Calculadora\Calculadora.ConsoleApp\obj\Debug\net6.0\Calculadora.ConsoleApp.AssemblyInfoInputs.cache
+E:\AcademiaProjetos\Calculadora\Calculadora.ConsoleApp\obj\Debug\net6.0\Calculadora.ConsoleApp.AssemblyInfo.cs
+E:\AcademiaProjetos\Calculadora\Calculadora.ConsoleApp\obj\Debug\net6.0\Calculadora.ConsoleApp.csproj.CoreCompileInputs.cache
+E:\AcademiaProjetos\Calculadora\Calculadora.ConsoleApp\obj\Debug\net6.0\Calculadora.ConsoleApp.dll
+E:\AcademiaProjetos\Calculadora\Calculadora.ConsoleApp\obj\Debug\net6.0\refint\Calculadora.ConsoleApp.dll
+E:\AcademiaProjetos\Calculadora\Calculadora.ConsoleApp\obj\Debug\net6.0\Calculadora.ConsoleApp.pdb
+E:\AcademiaProjetos\Calculadora\Calculadora.ConsoleApp\obj\Debug\net6.0\Calculadora.ConsoleApp.genruntimeconfig.cache
+E:\AcademiaProjetos\Calculadora\Calculadora.ConsoleApp\obj\Debug\net6.0\ref\Calculadora.ConsoleApp.dll
