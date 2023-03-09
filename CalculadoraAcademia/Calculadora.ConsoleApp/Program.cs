@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Calculadora da academia!");
+            Console.WriteLine("Calculadora da academia!!!");
             Console.Write("Insira o primeiro número: ");
             decimal num1 = decimal.Parse(Console.ReadLine());
 
@@ -27,15 +27,23 @@
                 {
                     case "1":
                         resultado = num1 + num2;
+                        Console.WriteLine("O resultado da operação é: " + Math.Round(resultado, 2));
+                        Console.ReadLine();
                         break;
                     case "2":
                         resultado = num1 - num2;
+                        Console.WriteLine("O resultado da operação é: " + Math.Round(resultado, 2));
+                        Console.ReadLine();
                         break;
                     case "3":
                         resultado = num1 * num2;
+                        Console.WriteLine("O resultado da operação é: " + Math.Round(resultado, 2));
+                        Console.ReadLine();
                         break;
                     case "4":
                         resultado = num1 / num2;
+                        Console.WriteLine("O resultado da operação é: " + Math.Round(resultado, 2));
+                        Console.ReadLine();
                         break;                    
                     case "5":
                         break;
@@ -43,11 +51,9 @@
                         Console.WriteLine("Operação inválida\n");
                         continue;
                 }
-                break;
+  
             }
-
-            Console.WriteLine("O resultado da operação é: " + Math.Round(resultado, 2));
-            Console.ReadLine();
+            
 
         }
     }

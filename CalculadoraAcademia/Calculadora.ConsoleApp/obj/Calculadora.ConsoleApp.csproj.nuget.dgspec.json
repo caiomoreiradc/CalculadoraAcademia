@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\AcademiaProjetos\\Calculadora\\Calculadora.ConsoleApp\\Calculadora.ConsoleApp.csproj": {}
+    "E:\\AcademiaProjetos\\CalculadoraAcademia\\Calculadora.ConsoleApp\\Calculadora.ConsoleApp.csproj": {}
   },
   "projects": {
-    "E:\\AcademiaProjetos\\Calculadora\\Calculadora.ConsoleApp\\Calculadora.ConsoleApp.csproj": {
+    "E:\\AcademiaProjetos\\CalculadoraAcademia\\Calculadora.ConsoleApp\\Calculadora.ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\AcademiaProjetos\\Calculadora\\Calculadora.ConsoleApp\\Calculadora.ConsoleApp.csproj",
+        "projectUniqueName": "E:\\AcademiaProjetos\\CalculadoraAcademia\\Calculadora.ConsoleApp\\Calculadora.ConsoleApp.csproj",
         "projectName": "Calculadora.ConsoleApp",
-        "projectPath": "E:\\AcademiaProjetos\\Calculadora\\Calculadora.ConsoleApp\\Calculadora.ConsoleApp.csproj",
+        "projectPath": "E:\\AcademiaProjetos\\CalculadoraAcademia\\Calculadora.ConsoleApp\\Calculadora.ConsoleApp.csproj",
         "packagesPath": "C:\\Users\\T-GAMER\\.nuget\\packages\\",
-        "outputPath": "E:\\AcademiaProjetos\\Calculadora\\Calculadora.ConsoleApp\\obj\\",
+        "outputPath": "E:\\AcademiaProjetos\\CalculadoraAcademia\\Calculadora.ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\T-GAMER\\AppData\\Roaming\\NuGet\\NuGet.Config",
