@@ -1,60 +1,99 @@
-﻿namespace Calculadora.ConsoleApp
+﻿using System;
+
+namespace Calculadora
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Calculadora da academia!!!");
-            Console.Write("Insira o primeiro número: ");
-            decimal num1 = decimal.Parse(Console.ReadLine());
-
-            Console.Write("Insira o segundo número: ");
-            decimal num2 = decimal.Parse(Console.ReadLine());
-
-            string operacao = "";
-            decimal resultado = 0;
+            string[] historico = new string[100];
+            int qtdOperacoes = 0;
 
             while (true)
             {
-                Console.WriteLine("1- Realizar Soma:");
-                Console.WriteLine("2- Realizar subtração:");
-                Console.WriteLine("3- Realizar multiplicação:");
-                Console.WriteLine("4- Realizar Divisão:");
-                Console.WriteLine("5- Fechar Programa:");
-                operacao = Console.ReadLine();
+                Console.WriteLine("Calculadora da Academia!");
+                Console.WriteLine();
+                Console.WriteLine("Selecione a operação:");
+                Console.WriteLine("1 - Soma");
+                Console.WriteLine("2 - Subtração");
+                Console.WriteLine("3 - Divisão");
+                Console.WriteLine("4 - Multiplicação");
+                Console.WriteLine("5 - Ver histórico");
+                Console.WriteLine("6 - Sair");
 
-                switch (operacao)
+                Console.WriteLine();
+
+                int opcao = int.Parse(Console.ReadLine());
+
+                if (opcao == 6)
                 {
-                    case "1":
-                        resultado = num1 + num2;
-                        Console.WriteLine("O resultado da operação é: " + Math.Round(resultado, 2));
-                        Console.ReadLine();
+                    Console.WriteLine("Saindo da matrix...");
+                    break;
+                }
+
+                if (opcao == 5)
+                {
+                    Console.WriteLine();
+                    Console.WriteLine("Histórico de operações:");
+                    for (int i = 0; i < qtdOperacoes; i++)
+                    {
+                        Console.ForegroundColor = i % 2 == 0 ? ConsoleColor.Red : ConsoleColor.Black;
+                        Console.WriteLine(historico[i]);
+                        Console.ResetColor();
+                    }
+                    continue;
+                }
+
+                Console.WriteLine("Digite o primeiro número:");
+                double numero1 = double.Parse(Console.ReadLine());
+
+                Console.WriteLine();
+
+                Console.WriteLine("Digite o segundo número:");
+                double numero2 = double.Parse(Console.ReadLine());
+
+                Console.WriteLine();
+
+                double resultado = 0;
+                string operacao = "";
+
+                switch (opcao)
+                {
+                    case 1:
+                        resultado = numero1 + numero2;
+                        operacao = $"{numero1} + {numero2} = {resultado}";
                         break;
-                    case "2":
-                        resultado = num1 - num2;
-                        Console.WriteLine("O resultado da operação é: " + Math.Round(resultado, 2));
-                        Console.ReadLine();
+                    case 2:
+                        resultado = numero1 - numero2;
+                        operacao = $"{numero1} - {numero2} = {resultado}";
                         break;
-                    case "3":
-                        resultado = num1 * num2;
-                        Console.WriteLine("O resultado da operação é: " + Math.Round(resultado, 2));
-                        Console.ReadLine();
+                    case 3:
+                        if (numero2 != 0)
+                        {
+                            resultado = numero1 / numero2;
+                            operacao = $"{numero1} / {numero2} = {resultado}";
+                        }
+                        else
+                        {
+                            Console.WriteLine("Erro: divisão por zero!");
+                            continue;
+                        }
                         break;
-                    case "4":
-                        resultado = num1 / num2;
-                        Console.WriteLine("O resultado da operação é: " + Math.Round(resultado, 2));
-                        Console.ReadLine();
-                        break;                    
-                    case "5":
+                    case 4:
+                        resultado = numero1 * numero2;
+                        operacao = $"{numero1} * {numero2} = {resultado}";
                         break;
                     default:
-                        Console.WriteLine("Operação inválida\n");
+                        Console.WriteLine("Opção inválida!");
                         continue;
                 }
-  
-            }
-            
 
+                historico[qtdOperacoes] = operacao;
+                qtdOperacoes++;
+
+                Console.WriteLine();
+                Console.WriteLine("Resultado: " + Math.Round(resultado, 2));
+            }
         }
     }
 }
